@@ -69,8 +69,8 @@ body:after {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   .btn.btn-primary {
-    background: #fab95b;
-    border-color: #fab95b;
+    background: #3b352b;
+    border-color: #3b352b;
     color: #fff; }
     .btn.btn-primary:hover {
       background: #000;
@@ -258,7 +258,7 @@ body:after {
   .ul-check.success li:before {
     color: #71bc42; }
   .ul-check.primary li:before {
-    color: #fab95b; }
+    color: #3b352b; }
   .ul-check li.remove {
     text-decoration: line-through;
     color: #dee2e6; }
@@ -310,7 +310,7 @@ body:after {
         .site-navbar .site-navigation .site-menu > li > a:hover, .site-navbar .site-navigation .site-menu > li > a.active {
           color: #fff !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #fab95b; }
+          color: #3b352b; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -332,7 +332,7 @@ body:after {
         top: 100%;
         position: absolute;
         text-align: left;
-        border-top: 2px solid #fab95b;
+        border-top: 2px solid #3b352b;
         -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
         box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
         padding: 0px 0;
@@ -366,7 +366,7 @@ body:after {
           transition: 0s all;
           color: #000; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active {
-          color: #fab95b !important; }
+          color: #3b352b !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
           padding: 0;
@@ -465,12 +465,12 @@ a{
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #fab95b; }
+        color: #3b352b; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li .active {
-        color: #fab95b; }
+        color: #3b352b; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -568,7 +568,7 @@ a{
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
       color: #000 !important; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-        color: #fab95b !important; }
+        color: #3b352b !important; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
@@ -619,7 +619,7 @@ a{
     bottom: 0;
     left: 0;
     height: 2px;
-    background: #fab95b;
+    background: #3b352b;
     width: 50px;
     display: none; }
   .section-title.text-center:after {
@@ -657,7 +657,7 @@ a{
       height: 50px;
       line-height: 50px;
       border-radius: 50%;
-      background: #fab95b;
+      background: #3b352b;
       display: inline-block;
       color: #fff;
       text-align: center; }
@@ -829,12 +829,22 @@ a{
 
 .blog_entry img {
   border-top-left-radius: 4px;
-  border-top-right-radius: 4px; }
+  border-top-right-radius: 4px;
+  height:260px;
+  width:350px; }
 
 .blog_entry > div {
   border: 1px solid #eee;
   border-top: none; }
 
+.blog_entry{
+  
+  height: 570px;
+  width: 350px;
+}
+.blog-details{
+  height:310px;
+}
 .blog_entry h3 {
   font-size: 1.3rem; }
   .blog_entry h3 a {
@@ -847,6 +857,17 @@ a{
   display: block;
   font-size: .9rem;
   margin-bottom: 15px; }
+  .icons-container{
+    margin-left:300px;
+    
+  }
+  .contact-img{
+      margin-left:50px;
+  }
+.contact-img img{
+  height:50px;
+  width:100px;
+}
 
 .form .form-control {
   border: none;
@@ -872,11 +893,11 @@ a{
   margin-bottom: 26px;
   height: 4px; }
   .progress .progress-bar {
-    background-color: #fab95b;
+    background-color: #3b352b;
     position: relative;
     border-radius: 4px; }
     .progress .progress-bar span {
-      background-color: #fab95b;
+      background-color: #3b352b;
       position: absolute;
       bottom: -20px;
       font-size: 10px;
@@ -894,7 +915,7 @@ a{
       position: absolute;
       pointer-events: none;
       border-color: rgba(255, 255, 255, 0);
-      border-bottom-color: #fab95b;
+      border-bottom-color: #3b352b;
       border-width: 5px;
       margin-left: -5px; }
 
